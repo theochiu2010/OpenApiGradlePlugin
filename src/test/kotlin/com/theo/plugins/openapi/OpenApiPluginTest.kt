@@ -6,9 +6,8 @@ import org.gradle.testfixtures.ProjectBuilder
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import org.openapitools.generator.gradle.plugin.tasks.GenerateTask
-import spock.lang.Specification
 
-class OpenApiPluginTest : Specification() {
+class OpenApiPluginTest {
     @Test
     fun `downloadContract Task is included in plugin`() {
         val project: Project = ProjectBuilder.builder().build()
